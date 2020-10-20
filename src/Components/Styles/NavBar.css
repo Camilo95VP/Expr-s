@@ -24,39 +24,118 @@ nav{
 nav ul{
     float: right;
     margin-right:  20px;
+    list-style: none;
+    text-decoration: none;
 }
 nav ul li{
     display: inline-block;
     line-height: 130px;
     margin: 0 10px;
+    list-style: none;
+    text-decoration: none;
 }
 nav ul li a{
     font-size: 17px;
     padding: 7px 13px;
     border-radius: 8px;
     text-transform: uppercase;
-    color: black;
-}
-a.active,a:hover{
+    color: rgb(255, 255, 255);
+    list-style: none;
+    text-decoration: none;
     background: linear-gradient(to right,#000000, #8d8d8d);
-    transition: .8s;
+}
+a:hover{
+    background: linear-gradient(to right,#000000, #8d8d8d);
+    transition: .5s;
     color: white;
+    list-style: none;
+    text-decoration: none;
     -webkit-box-shadow: 13px 12px 15px -4px rgba(0,0,0,0.45);
--moz-box-shadow: 13px 12px 15px -4px rgba(0,0,0,0.45);
-box-shadow: 13px 12px 15px -4px rgba(0,0,0,0.45);
+    -moz-box-shadow: 13px 12px 15px -4px rgba(0,0,0,0.45);
+    box-shadow: 13px 12px 15px -4px rgba(0,0,0,0.45);
 }
 .checkbtn{
     font-size: 30px;
     color: rgb(0, 0, 0);
     float: right;
     line-height: 80px;
-    margin-right: 40px;
+    margin-left: 310px;
     display: none;
     cursor: pointer;
+    position: fixed;
 }
 #check{
     display: none;
 }
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:80px;
+	right:25px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+.float:hover {
+	text-decoration: none;
+	color: #25d366;
+  background-color:#fff;
+}
+
+.my-float{
+	margin-top:16px;
+}
+.arrow{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:150px;
+	right:25px;
+	background-color:#2576d3;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+.arrow:hover {
+	text-decoration: none;
+	color: #d3c725;
+  background-color:#fff;
+}
+
+.my-arrow{
+	margin-top:16px;
+}
+.arrow-down{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:10px;
+	right:25px;
+	background-color:#2576d3;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+.arrow-down:hover {
+	text-decoration: none;
+	color: #d3c725;
+  background-color:#fff;
+}
+
+.my-arrow-down{
+	margin-top:16px;
+}      
 @media (max-width: 1003px){
     .logo{
         height: 220px;
@@ -120,6 +199,75 @@ nav ul li a{
     nav ul li a{
         font-size: 18px;
     }
+    .float{
+        position:fixed;
+        width:40px;
+        height:40px;
+        bottom:63px;
+        right:10px;
+        background-color:#25d366;
+        color:#FFF;
+        border-radius:50px;
+        text-align:center;
+      font-size:30px;
+        box-shadow: 2px 2px 3px #999;
+      z-index:100;
+    }
+    .float:hover {
+        text-decoration: none;
+        color: #25d366;
+      background-color:#fff;
+    }
+    
+    .my-float{
+        margin-top:16px;
+    }
+    .arrow{
+        position:fixed;
+        width:40px;
+        height:40px;
+        bottom:115px;
+        right:10px;
+        background-color:#2576d3;
+        color:#FFF;
+        border-radius:50px;
+        text-align:center;
+      font-size:30px;
+        box-shadow: 2px 2px 3px #999;
+      z-index:100;
+    }
+    .arrow:hover {
+        text-decoration: none;
+        color: #d3c725;
+      background-color:#fff;
+    }
+    
+    .my-arrow{
+        margin-top:16px;
+    }
+    .arrow-down{
+        position:fixed;
+        width:40px;
+        height:40px;
+        bottom:10px;
+        right:10px;
+        background-color:#2576d3;
+        color:#FFF;
+        border-radius:50px;
+        text-align:center;
+      font-size:30px;
+        box-shadow: 2px 2px 3px #999;
+      z-index:100;
+    }
+    .arrow-down:hover {
+        text-decoration: none;
+        color: #d3c725;
+      background-color:#fff;
+    }
+    
+    .my-arrow-down{
+        margin-top:16px;
+    }   
 }
 @media (max-width: 375px){
     .logo{
@@ -131,10 +279,11 @@ nav ul li a{
     nav ul li{
         display: inline-block;
         margin: 45px 0;
-        line-height: 10px;
+        line-height: 0px;
     }
     nav ul li a{
-        font-size: 16px;
+        font-size: 12px;
+        margin: 5px;
     }
 }
 @media (max-width: 353px){

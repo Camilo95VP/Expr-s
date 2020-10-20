@@ -1,0 +1,13 @@
+.container-about{
+    background-color: rgb(28, 78, 144);
+    margin-top: 25px;
+    padding: 0;
+    height: 100vh;
+}
+#title1{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    padding: 150px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

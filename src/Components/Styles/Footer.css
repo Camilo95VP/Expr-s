@@ -1,0 +1,67 @@
+.footer{
+    background-color: #ffffff;
+    height: 20vh;
+    margin-top: 8.3vh;
+}
+#icons-container{
+    height: 5vh;
+    background-color:#ffffff;
+}
+#text-container{
+    background-color: #ffffff;
+}
+#icon-facebook{
+    color: rgb(0, 0, 0);
+    font-size: 3em;
+    bottom: 8vh;
+    margin: 4vh;
+    position: relative; 
+}
+#icon-instagram{
+    color: rgb(0, 0, 0);
+    font-size: 3em;
+    bottom: 8vh;
+    margin: 4vh;
+    position: relative;  
+}
+#icon-google{
+    color: rgb(0, 0, 0);
+    font-size: 3em;
+    bottom: 8vh;
+    margin: 4vh;
+    position: relative; 
+}
+#text1{
+    margin-top: 30px;
+    text-align: center;
+}
+#text2{
+    text-align: center;
+}
+@media (max-width: 450px){
+    #icon-facebook{
+        color: rgb(0, 0, 0);
+        font-size: 2em;
+        position: relative;
+        bottom: 8vh; 
+    }
+    #icon-instagram{
+        color: rgb(0, 0, 0);
+        font-size: 2em;
+        position: relative;
+        bottom: 8vh;  
+    }
+    #icon-google{
+        color: rgb(0, 0, 0);
+        font-size: 2em;
+        position: relative;
+        bottom: 8vh; 
+    }
+    #text1{
+        text-align: center;
+        font-size: 13px;
+    }
+    #text2{
+        text-align: center;
+    }
+}
