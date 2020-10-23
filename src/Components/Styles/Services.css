@@ -11,3 +11,26 @@
     padding: 150px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+ul{
+    float: right;
+    margin-right:  20px;
+    list-style: none;
+    text-decoration: none;
+}
+ul li{
+    display: inline-block;
+    line-height: 130px;
+    margin: 0 10px;
+    list-style: none;
+    text-decoration: none;
+}
+ul li a{
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 8px;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    list-style: none;
+    text-decoration: none;
+    background: linear-gradient(to right,#000000, #8d8d8d);
+}
