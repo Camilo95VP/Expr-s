@@ -1,13 +1,19 @@
 import React, { Component } from 'react'
 import "../Styles/About.css"
+import {Animated} from "react-animated-css";
 
 export default class About extends Component {
+
     render() {
         return (
+            <Animated animationIn="bounceInLeft" animationOut="fadeOut" isVisible={true}>
             <div className="container-about">
+                 
                 <ul><li><a href="#services">Servicios</a></li></ul>
                 <h1 id="title1">Por que nosotros</h1>
+                
                    <div className="content-description">
+                   
                    <p id="text-description">
                      Tenemos los mejores precios del mercado. Nos adaptamos a su presupuesto
                     <br/>
@@ -27,8 +33,11 @@ export default class About extends Component {
                    <p id="text-description">Nuestro trabajo incluye el certificado para su establecimiento, garantía del mismo, atención
                     permanente a todas sus necesidades e inquietudes, respectiva capacitación al personal.
                     </p>
+                    
                    </div>
+                   
             </div>
+            </Animated>
         )
     }
 }

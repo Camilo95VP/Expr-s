@@ -1,9 +1,11 @@
 .container{
     text-align: center;
+    height: 90vh;
 }
 #img1{
     padding: 20px;
-    margin-top: -70px;
+    position: relative;
+    top: 60px;
     height:650px;
 }
 #title{
