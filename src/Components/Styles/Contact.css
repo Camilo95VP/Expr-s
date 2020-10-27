@@ -1,13 +1,49 @@
 .container-contact{
-    background-color:rgb(38, 122, 23);
+    background: linear-gradient(to right,#338a10, #6ca175);
     margin: 0;
     padding: 0;
     height: 100vh;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
 }
 #title3{
-    font-size: 30px;
+    font-size: 35px;
     color: white;
     text-align: center;
-    padding: 150px;
+    padding: 100px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#input{
+    width: 500px;
+    position: relative;
+    left: 40px;
+}
+#inputc{
+    width: 500px;
+    position: relative;
+    left: 40px;
+    height: 100px;
+}
+.btn{
+    color: #2576d3;
+}
+@media(max-width: 450px){
+    #input{
+        width: 300px;
+        position: relative;
+        left: 40px;
+    }
+    #title3{
+        font-size: 30px;
+        color: white;
+        text-align: center;
+        padding: 10px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    #inputc{
+        height: 100px;
+        width: 300px;
+        left: 40px;
+    }
 }

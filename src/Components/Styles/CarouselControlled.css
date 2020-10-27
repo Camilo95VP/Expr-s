@@ -1,12 +1,15 @@
 .container{
     text-align: center;
     height: 90vh;
+    width: 100vh;
 }
 #img1{
-    padding: 20px;
+    padding: 2px;
     position: relative;
-    top: 60px;
-    height:650px;
+    bottom: 20px;
+    height:748px;
+    width: 500px;
+    overflow: hidden;
 }
 #title{
     margin: 70px;
@@ -30,6 +33,8 @@
 @media(max-width: 400px){
     #img1{
         height:400px;
+        position: relative;
+        top: 160px;
     }
     #title{
         font-size: 15px;

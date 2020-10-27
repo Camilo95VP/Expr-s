@@ -43,11 +43,20 @@
     color: white;
 }
 
-.a-style:hover{
-    color: rgb(224, 228, 22);
+.boton:hover{
+    background-color: #2576d3;
     text-decoration: none;
 }
-
+#img-services{
+    height: 250px;
+    width: 460px;
+}
+@media (max-width: 450px){
+    #img-services{
+        height: 185px;
+        width: 325px;
+    } 
+}
 
 
 

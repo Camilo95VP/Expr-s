@@ -1,5 +1,5 @@
 .container-about{
-    background-color: rgb(26, 72, 133);
+    background: linear-gradient(to right,#204cac, #508bb3);
     margin-top: 25px;
     padding: 0;
     height: 100vh;

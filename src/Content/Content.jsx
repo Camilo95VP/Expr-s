@@ -11,7 +11,7 @@ export default class Content extends Component {
 componentDidMount(){
     swal({
         title: "Hola,",
-        text: "Bienvenid@ a Exprés Fumigaciones, puedes solicitar información o agendar cualquier servicio a través nuestro botón de WhatsApp",
+        text: "Bienvenid@ a Exprés Fumigaciones, puedes solicitar información, contratar o agendar cualquier servicio.",
         icon: "success",
         button: "Gracias!",
       });

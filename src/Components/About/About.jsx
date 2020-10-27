@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 import "../Styles/About.css"
 import {Animated} from "react-animated-css";
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome"
+import {faHandHoldingUsd, faHandshake, faHouseDamage, faPencilAlt, faPeopleCarry } from "@fortawesome/free-solid-svg-icons"
 
 export default class About extends Component {
 
@@ -15,13 +17,15 @@ export default class About extends Component {
                    <div className="content-description">
                    
                    <p id="text-description">
-                     Tenemos los mejores precios del mercado. Nos adaptamos a su presupuesto
+                    <FontAwesomeIcon icon={faHandHoldingUsd}/> Tenemos los mejores precios del mercado. Nos adaptamos a su presupuesto
                     <br/>
-                     Fumigación para su casa, finca, negocio, restaurante, escuelas, hospitales, etc
+                    <FontAwesomeIcon icon={faHouseDamage}/> Fumigación para su casa, finca, negocio, restaurante, escuelas, hospitales, etc
                     <br/>
-                     Contratos bimestral, trimestral, semestral, anual 
+                    <FontAwesomeIcon icon={faPencilAlt}/> Contratos bimestral, trimestral, semestral, anual 
                     <br/>
-                     Acompañiamiento durante todo el proceso
+                    <FontAwesomeIcon icon={faPeopleCarry}/> Acompañiamiento durante todo el proceso
+                    <br/>
+                    <FontAwesomeIcon icon={faHandshake}/> Certificados para hacer el control de plagas
                     <br/>
                     <br/>
                    En Exprés Fumigaciones realizamos el control de plagas y desinfestacion con productos

@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Controlador from "../../images/controladorrr.jpg"
+import Controlador from "../../images/portadaedit.jpg"
 import "../Styles/CarouselControlled.css"
 import {Animated} from "react-animated-css";
 
