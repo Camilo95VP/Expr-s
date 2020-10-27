@@ -16,7 +16,7 @@ export default class About extends Component {
                 
                    <div className="content-description">
                    
-                   <p id="text-description">
+                    <p id="text-description">
                     <FontAwesomeIcon icon={faHandHoldingUsd}/> Tenemos los mejores precios del mercado. Nos adaptamos a su presupuesto
                     <br/>
                     <FontAwesomeIcon icon={faHouseDamage}/> Fumigación para su casa, finca, negocio, restaurante, escuelas, hospitales, etc
@@ -28,15 +28,15 @@ export default class About extends Component {
                     <FontAwesomeIcon icon={faHandshake}/> Certificados para hacer el control de plagas
                     <br/>
                     <br/>
-                   En Exprés Fumigaciones realizamos el control de plagas y desinfestacion con productos
-                   piretroides y cipermetrinas de la mejor calidad manejados técnicamente con un grado de
-                   toxicidad |||º teniendo un gran poder de acción y residualidad, no afectan la salud de las
-                   personas o mascotas; no representan daños para los alimentos, medio ambiente o el
-                   mobiliario, son productos inoloros, no visibles y no generan manchas, por lo que no crean
-                   incomodidad en su aplicación, contamos con 5 años de experiencia</p>
+                     En Exprés Fumigaciones realizamos el control de plagas y desinfestacion con productos
+                     piretroides y cipermetrinas de la mejor calidad manejados técnicamente con un grado de
+                     toxicidad |||º teniendo un gran poder de acción y residualidad, no afectan la salud de las
+                     personas o mascotas; no representan daños para los alimentos, medio ambiente o el
+                     mobiliario, son productos inoloros, no visibles y no generan manchas, por lo que no crean
+                     incomodidad en su aplicación, contamos con 5 años de experiencia</p>
                    <p id="text-description">Nuestro trabajo incluye el certificado para su establecimiento, garantía del mismo, atención
-                    permanente a todas sus necesidades e inquietudes, respectiva capacitación al personal.
-                    </p>
+                     permanente a todas sus necesidades e inquietudes, respectiva capacitación al personal.
+                   </p>
                     
                    </div>
                    

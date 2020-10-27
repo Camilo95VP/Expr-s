@@ -1,0 +1,22 @@
+{
+  "user": [
+    {
+      "id": 1,
+      "nombre": "Andrea",
+      "apellidos": "gonzales",
+      "email": "andrea@gmail.com",
+      "celular": "3154565784",
+      "razonsocial": "plug",
+      "mensaje": "hola quiero fumigar"
+    },
+    {
+      "nombre": "Camilo",
+      "apellidos": "Catañeda",
+      "email": "camiloflstudio@gmail.com",
+      "celular": "3196736669",
+      "razonSocial": "expres",
+      "mensaje": "hola, quiero fumigar",
+      "id": 2
+    }
+  ]
+}
