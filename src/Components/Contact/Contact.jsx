@@ -66,8 +66,8 @@ export default class Contact extends Component {
     
     if (res.data === this.nombre){
         swal({
-            title: `${this.state.nombre}, gracias por registrar tus datos`,
-            text: `Te estaremos contactando pronto`,
+            title: `${this.state.nombre},`,
+            text: `Gracias por registrar tus datos, te estaremos contactando pronto.`,
             icon: "success"
         });
       }
@@ -75,20 +75,20 @@ export default class Contact extends Component {
     render() {
         return (
             <div className="container-contact">
-                <h1 id="title3">Contactanos</h1>
+                <h1 id="title3">Envianos un mensaje</h1>
                 <form onSubmit={this.onSubmit}>
                     <Input type="text" id="input" onChange={this.onChangeNombre} className="col-md-8 offset-md-4" required placeholder="Nombre"/>
                     <br/>
-                    <br/>
+                   
                     <Input type="text" id="input" onChange={this.onChangeApellidos} className="col-md-8 offset-md-4"required placeholder="Apellidos"/>
                     <br/>
-                    <br/>
+                    
                     <Input type="email" id="input" onChange={this.onChangeEmail} className="col-md-8 offset-md-4"required placeholder="Email"/>
                     <br/>
-                    <br/>
+                    
                     <Input type="number" id="input" onChange={this.onChangeCelular} className="col-md-8 offset-md-4"required placeholder="Celular"/>
                     <br/>
-                    <br/>
+                    
                     <Input type="text" id="input" onChange={this.onChangeRazonSocial} className="col-md-8 offset-md-4"required placeholder="Razon social"/>
                     <br/>
                     
