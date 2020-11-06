@@ -14,8 +14,12 @@ import cucarachas from "../../images/cucarachasmuertas.jpg"
 import comejenter from "../../images/comejenter.jpg"
 import ratota from "../../images/ratota.jpg"
 import covid from "../../images/covid19.jpg"
+import recidencia from "../../images/residenciall.jpg"
+import comerciall from "../../images/comerciall.jpg"
+import transporte from "../../images/transporte.jpg"
+import hotel from "../../images/Piscinahotel.jpg"
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome"
-import {faCheck} from "@fortawesome/free-solid-svg-icons"
+import {faCheck,faInfoCircle,faShoppingCart, faTimes} from "@fortawesome/free-solid-svg-icons"
 
 export default class Services extends Component {
     state={
@@ -150,13 +154,14 @@ export default class Services extends Component {
                        <li><FontAwesomeIcon icon={faCheck} />  Fumigación en seco</li>
                        <li><FontAwesomeIcon icon={faCheck} />  Fumigación con gel insecticida</li>
                        <br/>
-                       <p><strong>Garantia de 3 meses y certificado para su local o negocio.</strong> </p>  
+                       <p><strong>Garantia de 3 meses y certificado para su local o negocio, servicio a partir de 60.000 $</strong> </p>  
             </ModalBody>
 
 
             <ModalFooter>
-                <Button color="info" href="https://api.whatsapp.com/send?phone=573052526997&text=Hola, quiero fumigar contra las cucarachas, gracias.">Quiero contratar este servicio</Button>
-                <Button color="danger" onClick={this.openModalcucarachas}>Cerrar</Button>
+                <Button color="warning" href="https://api.whatsapp.com/send?phone=573052526997&text=Hola, quiero fumigar contra las cucarachas, gracias.">
+                <FontAwesomeIcon icon={faShoppingCart}/>  Quiero contratar este servicio</Button>
+                <Button color="danger" onClick={this.openModalcucarachas}><FontAwesomeIcon icon={faTimes} /></Button>
             </ModalFooter>
 
         </Modal>
@@ -182,8 +187,9 @@ export default class Services extends Component {
 
 
             <ModalFooter>
-                <Button color="info" href="https://api.whatsapp.com/send?phone=573052526997&text=Hola, quiero fumigar contra el comejém, gracias.">Quiero contratar este servicio</Button>
-                <Button color="danger" onClick={this.openModalcomejen}>Cerrar</Button>
+                <Button color="warning" href="https://api.whatsapp.com/send?phone=573052526997&text=Hola, quiero fumigar contra el comejém, gracias.">
+                <FontAwesomeIcon icon={faShoppingCart}/>  Quiero contratar este servicio</Button>
+                <Button color="danger" onClick={this.openModalcomejen}><FontAwesomeIcon icon={faTimes} /></Button>
             </ModalFooter>
 
         </Modal>
@@ -209,8 +215,9 @@ export default class Services extends Component {
 
 
             <ModalFooter>
-                <Button color="info" href="https://api.whatsapp.com/send?phone=573052526997&text=Hola, quiero controlar los ratones, gracias.">Quiero contratar este servicio</Button>
-                <Button color="danger" onClick={this.openModalroedores}>Cerrar</Button>
+                <Button color="warning" href="https://api.whatsapp.com/send?phone=573052526997&text=Hola, quiero controlar los ratones, gracias.">
+                <FontAwesomeIcon icon={faShoppingCart}/>  Quiero contratar este servicio</Button>
+                <Button color="danger" onClick={this.openModalroedores}><FontAwesomeIcon icon={faTimes} /></Button>
             </ModalFooter>
 
         </Modal>
@@ -227,7 +234,7 @@ export default class Services extends Component {
             <img src={covid} id="img-services" alt="img"/>
             <br/>
             <br/>
-            <p>Utilizamos <strong>amonio cuaternario</strong> de quinta genneración.
+            <p>Utilizamos <strong>amonio cuaternario</strong> de quinta generación.
             Este producto se utiliza para desinfectar superficies, el de quinta generación es el recomendado debido 
             a su amplio espectro bactericida, fungicida y virucida. Además, su uso es más seguro y tiene un menor impacto en el ambiente.</p>
             <p><strong>Cuida de tu salud y los que te rodean.</strong> </p>
@@ -236,8 +243,9 @@ export default class Services extends Component {
 
 
             <ModalFooter>
-                <Button color="info" href="https://api.whatsapp.com/send?phone=573052526997&text=Hola, quiero contratar el servicio de desinfección, gracias.">Quiero contratar este servicio</Button>
-                <Button color="danger" onClick={this.openModaldesinfeccion}>Cerrar</Button>
+                <Button color="warning" href="https://api.whatsapp.com/send?phone=573052526997&text=Hola, quiero contratar el servicio de desinfección, gracias.">
+                <FontAwesomeIcon icon={faShoppingCart}/>  Quiero contratar este servicio</Button>
+                <Button color="danger" onClick={this.openModaldesinfeccion}><FontAwesomeIcon icon={faTimes} /></Button>
             </ModalFooter>
 
         </Modal>
@@ -251,13 +259,23 @@ export default class Services extends Component {
 
 
             <ModalBody>
-
+                <img src={recidencia} id="img-services" alt="img"/>
+                <p>
+                <br/> 
+                      Unidades cerradas, <br/>
+                      Apartamentos,<br/>
+                      Fincas,<br/>
+                      Parcelación,<br/>
+                      Condominios ... </p>
+                      <br/>
+                      <p><strong>Preguntanos, estamos listos para atenderte.</strong> </p>
             </ModalBody>
 
 
             <ModalFooter>
-                <Button color="info" href="https://api.whatsapp.com/send?phone=573052526997&text=Hola, quiero mas informacion sobre las areas residenciales, gracias.">Deseo más información</Button>
-                <Button color="danger" onClick={this.openModalresidencial}>Cerrar</Button>
+                <Button color="warning" href="https://api.whatsapp.com/send?phone=573052526997&text=Hola, quiero mas informacion sobre las areas residenciales, gracias.">
+                <FontAwesomeIcon icon={faInfoCircle}/>  Deseo más información</Button>
+                <Button color="danger" onClick={this.openModalresidencial}><FontAwesomeIcon icon={faTimes} /></Button>
             </ModalFooter>
 
         </Modal>
@@ -272,13 +290,23 @@ export default class Services extends Component {
 
 
             <ModalBody>
-
+            <img src={comerciall} id="img-services" alt="img"/>
+                <p>
+                <br/> 
+                      Locales gastronomicos, <br/>
+                      Locales comerciales,<br/>
+                      Centro Comercial,<br/>
+                      Aeropuerto,<br/>
+                      Hospital ... </p>
+                      <br/>
+                      <p><strong>Preguntanos, estamos listos para atenderte.</strong> </p>
             </ModalBody>
 
 
             <ModalFooter>
-                <Button color="info" href="https://api.whatsapp.com/send?phone=573052526997&text=Hola, quiero mas informacion sobre las areas comerciales, gracias.">Deseo más información</Button>
-                <Button color="danger" onClick={this.openModalcomercial}>Cerrar</Button>
+                <Button color="warning" href="https://api.whatsapp.com/send?phone=573052526997&text=Hola, quiero mas informacion sobre las areas comerciales, gracias.">
+                <FontAwesomeIcon icon={faInfoCircle}/>  Deseo más información</Button>
+                <Button color="danger" onClick={this.openModalcomercial}><FontAwesomeIcon icon={faTimes} /></Button>
             </ModalFooter>
 
         </Modal>
@@ -292,13 +320,22 @@ export default class Services extends Component {
 
 
             <ModalBody>
-
+            <img src={transporte} id="img-services" alt="img"/>
+                <p>
+                <br/> 
+                      Fabricas, <br/>
+                      Bodegas,<br/>
+                      Constructoras,<br/>
+                      Transportadoras ... </p>
+                      <br/>
+                      <p><strong>Preguntanos, estamos listos para atenderte.</strong> </p>
             </ModalBody>
 
 
             <ModalFooter>
-                <Button color="info" href="https://api.whatsapp.com/send?phone=573052526997&text=Hola, quiero mas informacion sobre las areas industriales, gracias.">Deseo más información</Button>
-                <Button color="danger" onClick={this.openModalindustrial}>Cerrar</Button>
+                <Button color="warning" href="https://api.whatsapp.com/send?phone=573052526997&text=Hola, quiero mas informacion sobre las areas industriales, gracias.">
+                <FontAwesomeIcon icon={faInfoCircle}/>  Deseo más información</Button>
+                <Button color="danger" onClick={this.openModalindustrial}><FontAwesomeIcon icon={faTimes} /></Button>
             </ModalFooter>
 
         </Modal>
@@ -312,13 +349,24 @@ export default class Services extends Component {
 
 
             <ModalBody>
-
+            <img src={hotel} id="img-services" alt="img"/>
+                <p>
+                <br/> 
+                Contratos mensual, bimestral y semestral,
+                <br/>
+                Certificado Legal de fumigación,
+                <br/>
+                Servicio Garantizado,
+                </p>
+                      <br/>
+                      <p><strong>Preguntanos, estamos listos para atenderte.</strong> </p>
             </ModalBody>
 
 
             <ModalFooter>
-                <Button color="info" href="https://api.whatsapp.com/send?phone=573052526997&text=Hola, quiero mas informacion para el servicio en hoteles, gracias.">Deseo más información</Button>
-                <Button color="danger" onClick={this.openModalhoteles}>Cerrar</Button>
+                <Button color="warning" href="https://api.whatsapp.com/send?phone=573052526997&text=Hola, quiero mas informacion para el servicio en hoteles, gracias.">
+                <FontAwesomeIcon icon={faInfoCircle}/>  Deseo más información</Button>
+                <Button color="danger" onClick={this.openModalhoteles}><FontAwesomeIcon icon={faTimes} /></Button>
             </ModalFooter>
 
         </Modal>

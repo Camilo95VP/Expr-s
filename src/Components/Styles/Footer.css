@@ -5,31 +5,37 @@
 }
 #icons-container{
     height: 5vh;
+    width: 400px;
     background-color:#ffffff;
+    position: relative;
+    
 }
 #text-container{
     background-color: #ffffff;
 }
-#icon-facebook{
+#iconn-facebook{
     color: rgb(0, 0, 0);
     font-size: 3em;
     bottom: 8vh;
     margin: 4vh;
-    position: relative; 
+    position: relative;
+    
 }
-#icon-instagram{
+#iconn-instagram{
     color: rgb(0, 0, 0);
     font-size: 3em;
     bottom: 8vh;
     margin: 4vh;
-    position: relative;  
+    position: relative;
+      
 }
-#icon-google{
+#iconn-google{
     color: rgb(0, 0, 0);
     font-size: 3em;
     bottom: 8vh;
     margin: 4vh;
-    position: relative; 
+    position: relative;
+     
 }
 #text1{
     margin-top: 30px;
@@ -38,30 +44,50 @@
 #text2{
     text-align: center;
 }
+#firma{
+    position: relative;
+    left: 650px;
+    height: 70px;
+    width: 400px;
+}
 @media (max-width: 450px){
     #icon-facebook{
         color: rgb(0, 0, 0);
         font-size: 2em;
         position: relative;
-        bottom: 8vh; 
+        bottom: 8vh;
+        
     }
-    #icon-instagram{
+    #iconn-instagram{
         color: rgb(0, 0, 0);
-        font-size: 2em;
+        
         position: relative;
-        bottom: 8vh;  
+        bottom: 8vh;
+        left: 20px; 
     }
-    #icon-google{
+    #iconn-google{
         color: rgb(0, 0, 0);
-        font-size: 2em;
+        
         position: relative;
-        bottom: 8vh; 
+        bottom: 8vh;
+        left: 35px;
     }
+    #icons-container{
+    position: relative;
+    left: 0px;
+    width: 350px;
+}
     #text1{
         text-align: center;
         font-size: 13px;
     }
     #text2{
         text-align: center;
+    }
+    #firma{
+        position: relative;
+        left: 80px;
+        height: 70px;
+        width: 200px;
     }
 }

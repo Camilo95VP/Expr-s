@@ -1,13 +1,13 @@
-.container{
+.contenedor{
     text-align: center;
-    height: 90vh
+    height: 90vh;
 }
 #img1{
     padding: 2px;
     position: relative;
     bottom: 20px;
     height:748px;
-    width: 500px;
+    width: 400px;
     overflow: hidden;
 }
 #title{
@@ -31,9 +31,12 @@
 }
 @media(max-width: 400px){
     #img1{
-        height:400px;
+        height:500px;
         position: relative;
-        top: 160px;
+        top: 127px;
+    }
+    .contenedor{
+        height: 90vh;
     }
     #title{
         font-size: 15px;

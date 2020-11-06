@@ -75,7 +75,7 @@ export default class Contact extends Component {
     render() {
         return (
             <div className="container-contact">
-                <h1 id="title3">Envianos un mensaje</h1>
+                <h1 id="title3">Dejanos un mensaje</h1>
                 <form onSubmit={this.onSubmit}>
                     <Input type="text" id="input" onChange={this.onChangeNombre} className="col-md-8 offset-md-4" required placeholder="Nombre"/>
                     <br/>
